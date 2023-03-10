@@ -11,7 +11,7 @@ document.getElementById('btn-submit').addEventListener('click',function(){
     // DANGER: don't veryfy email password on the client side 
     //step-4 : verify email and password 
     if(email === 'hasanbhuiyan1998@gmail.com' && password === '450252'){
-        window.location.href = 'http://127.0.0.1:5500/js/bank.html';
+        location.href ='bank.html';
     }
     else{
         alert('হ্যাপ! সয়তান কোনহানের')
